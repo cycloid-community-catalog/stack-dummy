@@ -22,6 +22,7 @@ config:
   default:
     name: 'Default'
     description: 'Default pipeline usecase'
+    cloud_provider: 'google'
     pipeline:
       pipeline:
         path: 'pipeline/pipeline.yml'
